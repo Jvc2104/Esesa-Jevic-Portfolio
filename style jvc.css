@@ -1,0 +1,227 @@
+/* reinitialisation */
+*{
+    margin: 2%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"titillium web", sans-serif;
+}
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+ li{
+    list-style: none;
+    font-size: 20px;
+}
+/* styliser le header*/
+
+div img{
+    position:left top;
+    top: 10%;
+    left: 0;
+    padding: 1px;
+    width: 600px;
+    height: 600px;
+    border-radius: 300%;   
+}
+.container{
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+  }
+h5 {
+font-size: 20px;
+font-weight: 100px;
+}
+.parent-container {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .circle-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .circle p {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: inherit;
+  }
+  .red-circle {
+    background-color: rgb(255, 94, 0);
+  }
+  
+  .green-circle {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .blue-circle {
+    background-color: rgb(215, 215, 239);
+  }
+  .yellow-circle {
+    background-color: rgb(245, 119, 9);
+  }
+i{
+    margin: 0 5px;
+}
+ul{
+  width: 25vw;
+  height: 23vh;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: 200px;
+  font-size: 40px;
+  }
+nav	{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    width: 25vw;
+    height: 23vh;
+    display: flex;
+    font-weight: 200px;
+    font-size: 40px;  
+}
+.icons-container{
+    text-align: right;
+    color: black;
+    font-size: 15px;
+    padding: 5px 200px;
+}
+h3{
+    font-size: 50px;
+}
+h4{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+i{
+  font-style: italic;
+}
+input[type="text"] {
+  width: 300px; /* or any other value you prefer */
+  height: 50px; /* or any other value you prefer */
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+}
+.large-input {
+  width: 500px;
+  height: 300px;
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  /* Styles spécifiques pour les écrans de taille maximale de 768px */
+
+    header {
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+    }
+
+    header img {
+      width: 200px;
+      height: 200px;
+      display: flex;
+      position: inherit;
+      align-items: center;
+    }
+    .parent-container{
+      flex-direction: column;
+      align-items: center;
+      position: inherit;
+      display: flex; 
+      margin: 50% ;
+    }
+   
+    .container {
+      flex-direction: column;
+      align-items: center;
+      display: flex;
+      position: inherit;
+    
+    }
+  
+    ul {
+      width: 100%;
+      padding: 0;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+      position: inherit;
+      position: left;
+      justify-content: space-between;
+    }
+  
+    h1 {
+      width: 20%;
+      padding: 0;
+    }
+  
+    .icons-container {
+      padding: 5px 50px;
+    }
+  
+    .circle {
+      width: 150px;
+      height: 150px;
+      margin: 20px;
+      flex-direction: column;
+      display: flex;
+    }
+  
+    .circle p {
+      font-size: 16px;
+      flex-direction: column;
+      display: flex;
+    }
+  
+    input[type="text"] {
+      width: 250px;
+      height: 40px;
+      font-size: 16px;
+    }
+  
+    .large-input {
+      width: 400px;
+      height: 250px;
+      font-size: 16px;
+    }
+   
+}
+
+  
